@@ -216,6 +216,10 @@ footer p {
     nav li:active {
         opacity: 0.9;
     }
+}
 
-
+@media (min-width: 1600px) and (max-width: 2560px) {
+    .logo {
+        width: 4%;
+    }
 }

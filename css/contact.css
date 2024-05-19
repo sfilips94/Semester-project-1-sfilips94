@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: lato, Arial, Helvetica, sans-serif;
+}
+
+.active-nav {
+    cursor: pointer;
+    background-color: rgba(65, 116, 190, 1);
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.contact-banner {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 80px;
+}
+
+.primary-heading {
+    font-size: 3rem;
+    color: rgba(229, 34, 66, 1);
+    font-family: livvic, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.contact-div {
+    width: 22%;
+}
+
+.contact-hours-white {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 27px;
+    color: white;
+}
+
+.contact-article {
+    font-size: 1.25rem;
+    line-height: 27px;
+}
+
+.contact-blue-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    background-color: rgba(65, 116, 190, 1);
+    padding: 60px 0px;
+}
+
+.contact-white-article {
+    font-size: 1.25rem;
+    line-height: 27px;
+    color: white;
+}
+
+.contact-white-heading {
+    font-size: 3rem;
+    color: white;
+    font-family: livvic, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.form-input {
+    display: block;
+    margin-bottom: 20px;
+    width: 15rem;
+    height: 22px;
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+}
+
+.form-div {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+}
+
+.contact-h3 {
+    font-size: 3rem;
+    font-family: livvic, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.form-label {
+    font-size: 1.25rem;
+    color: black;
+}
+
+.long-input {
+    padding-bottom: 100px;
+}
+
+.contact-cta {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 5px 20px
+}
+
+.contact-cta:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.contact-cta:active {
+    opacity: 0.5;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+    .contact-banner {
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .primary-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .contact-article {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .contact-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-div {
+        width: 90%;
+    }
+
+    .contact-blue-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-white-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .contact-white-article {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .contact-div p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .contact-h3 {
+        font-size: 2rem;
+    }
+
+    .form-div {
+        width: 90%;
+    }
+
+    .form-label {
+        font-size: 1rem;
+    }
+
+    .contact-cta {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .primary-heading {
+        font-size: 2rem;
+    }
+
+    .contact-article {
+        font-size: 1rem;
+    }
+
+    .contact-div {
+        width: 40%;
+    }
+
+    .contact-white-heading {
+        font-size: 2rem;
+    }
+
+    .contact-white-article {
+        font-size: 1rem;
+    }
+
+    .contact-div p {
+        font-size: 1rem;
+    }
+
+    .contact-h3 {
+        font-size: 2rem;
+    }
+
+    .form-label {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: lato, Arial, Helvetica, sans-serif;
+}
+
+.primary-heading {
+    font-size: 3rem;
+    color: rgba(65, 116, 190, 1);
+    margin-left: 50px;
+    margin-bottom: 0;
+    font-family: livvic, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.document-date {
+    font-size: 1.25rem;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+h2, h4 {
+    font-size: 2rem;
+    color: rgba(229, 34, 66, 1);
+    margin: 0;
+    font-family: livvic, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+p {
+    font-size: 1.25rem;
+    line-height: 27px;
+}
+
+.document-section {
+    width: 70%;
+    margin-left: 50px;
+    margin-bottom: 150px;
+}
+
+.document-ul {
+    font-size: 1.25rem;
+    line-height: 27px;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+    .primary-heading {
+        font-size: 2rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    .document-date {
+        margin: 0;
+        margin-bottom: 50px;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    h2, h4 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .document-ul {
+        font-size: 1rem;
+    }
+
+    .document-section {
+        margin: 0;
+        width: auto;
+        margin-bottom: 100px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .primary-heading {
+        font-size: 2rem;
+    }
+
+    .document-date {
+        font-size: 1rem;
+    }
+
+    h2, h4 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .document-ul {
+        font-size: 1rem;
+    }
+}

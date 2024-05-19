@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: lato, Arial, Helvetica, sans-serif;
+}
+
+.index-banner {
+    width: 100%;
+}
+
+.index-h1 {
+    font-size: 3rem;
+    background-color: rgba(65, 116, 190, 1);
+    color: white;
+    text-align: center;
+    width: 40%;
+    margin: 100px auto;
+    border-radius: 50px;
+    padding: 30px;
+    font-family: livvic, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.section-article {
+    background-color: rgba(65, 116, 190, 1);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0px;
+    margin-bottom: 150px;
+}
+
+.index-article {
+    font-size: 1.25rem;
+    color: white;
+    width: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.secondary-heading {
+    font-size: 2rem;
+    color: rgba(229, 34, 66, 1);
+    font-family: livvic, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.kids-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0px;
+    margin-bottom: 120px;
+}
+
+.kids-image {
+    width: 35%;
+    border-radius: 60px;
+}
+
+.kids-div {
+    width: 40%;
+}
+
+.kids-article {
+    font-size: 1.25rem;
+    line-height: 27px;
+}
+
+.teachers-section {
+    flex-direction: row-reverse;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+.active-nav {
+    cursor: pointer;
+    background-color: rgba(65, 116, 190, 1);
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+    .index-banner {
+        height: 230px;
+        object-fit: cover;
+        object-position: left;
+    }
+
+    .index-h1 {
+        font-size: 2rem;
+        width: auto;
+        margin: 70px 0px;
+    }
+
+    .index-article {
+        width: auto;
+        padding: 0% 3%;
+        font-size: 1rem;
+    }
+
+    .section-article {
+        margin-bottom: 40px;
+    }
+
+    .secondary-heading {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .kids-article {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .kids-section {
+        flex-direction: column;
+        margin-bottom: 60px;
+        padding: 0;
+    }
+
+    .kids-div {
+        width: 90%;
+    }
+
+    .kids-image {
+        width: 90%;
+        margin-top: 40px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .index-h1 {
+        font-size: 2rem;
+        width: 50%;
+    }
+
+    .index-article {
+        width: 70%;
+        font-size: 1rem;
+    }
+
+    .secondary-heading {
+        font-size: 1.5rem;
+    }
+
+    .kids-article {
+        font-size: 1rem;
+    }
+
+    .kids-div {
+        width: 50%;
+    }
+
+    .kids-image {
+        height: 250px;
+        object-fit: cover;
+    }
+}

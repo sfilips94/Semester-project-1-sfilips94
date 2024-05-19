@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: lato, Arial, Helvetica, sans-serif;
+}
+
+.active-nav {
+    cursor: pointer;
+    background-color: rgba(65, 116, 190, 1);
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.contribution-banner {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 80px;
+
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgba(65, 116, 190, 1);
+    margin-left: 100px;
+    margin-bottom: 120px;
+    font-family: livvic, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.contribution-image {
+    width: 100%;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contribution-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 300px;
+}
+
+.contribution-div {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: rgba(229, 34, 66, 1);
+    display: inline-block;
+    font-family: livvic, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+article {
+    width: 100%;
+    font-size: 1.25rem;
+    line-height: 27px;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+    .contribution-banner {
+        height: 150px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin: 0;
+        text-align: center;
+    }
+
+    .contribution-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contribution-div {
+        width: 90%;
+    }
+
+    .contribution-image {
+        width: 70%;
+        height: 230px;
+        object-fit: cover;
+        margin-top: 100px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    article {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .contribution-image {
+        height: 150px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    article {
+        font-size: 1rem;
+    }
+
+    .contribution-div {
+        align-items: center;
+    }
+}

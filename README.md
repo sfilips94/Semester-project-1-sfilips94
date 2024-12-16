@@ -1,3 +1,7 @@
+
+![Screenshot 2024-12-15 212330](https://github.com/user-attachments/assets/279bd0a8-1a3d-4b9c-9cb5-42fde1270c61)
+
+
 Community Science Museum Project
 
 🌟 Overview
